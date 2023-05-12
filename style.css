@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body {
+    background: #fff;
+    font-family: 'Poppins';
+}
+.logo {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+}
+.logo span {
+    color: #8F95A5;
+}
+header {
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    padding: 0 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hamburger {
+    display: none;
+}
+.nav-bar ul {
+    display: flex;
+}
+.nav-bar ul li a {
+    font-weight: 500;
+font-size: 17px;
+line-height: 30px;
+color: #263238;
+padding: 10px 25px;
+margin: 0 25px;
+}
+.nav-bar ul li a.btn {
+    padding: 17px 57px;
+    border: 1px solid #263238;
+    border-radius: 5px;
+    margin: 0;
+    font-size: 24px;
+    transition: .3s;
+}
+.nav-bar ul li a.btn:hover {
+    background: #263238;
+    color: #fff;
+}
+
+.container {
+    width: 1225px;
+    margin: auto;
+}
+main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main h1 {
+    font-weight: 600;
+font-size: 64px;
+line-height: 80px;
+}
+main p {
+    font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #8F95A5;
+padding-top: 40px;
+}
+main a {
+    padding: 32px 117px;
+    background: #263238;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 61px;
+    border: 1px solid #263238;
+    transition: .3s;
+}
+main a:hover {
+background: #fff;
+color: #263238;
+}
+main .text {
+    width: 40%;
+}
+section h1, .info h1 {
+    font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+}
+.skills p {
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #8F95A5;
+}
+.card {
+    padding: 0px 22px;
+    width: 30%;
+}
+.skills h3 {
+    font-weight: 600;
+font-size: 30px;
+line-height: 80px;
+color: #263238;
+}
+.card-body {
+    padding: 29px 33px 52px;
+}
+.card-body p:nth-child(3) {
+    padding-top: 25px;
+}
+.skills a {
+    padding: 16px 60px;
+    background: #263238;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 53px;
+}
+center, .skills {
+    margin-top: 60px;
+}
+.skills {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.writing {
+    width: 30%;
+}
+.card img {
+    width: 100%;
+}
+.writing-body.active {
+    margin-top: -45px;
+}
+.horizontal-card {
+    display: flex;
+    justify-content: end;
+    margin-top: -300px;
+}
+.horizontal {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.info .text {
+    width: 50%;
+}
+.info p {
+    font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #8F95A5;
+padding-top: 23px;
+}
+.info h3 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;    
+    color: #2A3246;    
+}
+.number {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+.number .num {
+    width: 30%;
+    text-align: center;
+}
+.number p {
+    padding: 0;
+}
+.pricing {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pricing .card {
+    width: 32%;
+}
+.pricing h3, .pricing h4 {
+    font-weight: 600;
+font-size: 25px;
+line-height: 48px;
+color: #263238;
+}
+.pricing p {
+    font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: #8F95A5;
+}
+.pricing h4 {
+    display: flex;
+    align-items: center;
+}
+.card.active {
+margin-top: 100px;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+}
+.contact .text {
+    width: 49%;
+}
+.contact p {
+    font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #8F95A5;
+}
+.contact form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 52px;
+}
+.contact input {
+    border: 1px solid #8F95A5;
+border-radius: 10px;
+width: 60%;
+padding-left: 33px;
+}
+.contact input::placeholder {
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #8F95A5;
+font-family: 'Poppins';
+}
+.contact a {
+    padding: 25px 75px;
+    background: #263238;
+    color: #fff;
+    border-radius: 5px;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer a {
+    font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #8F95A5;
+}
+@media (max-width: 1320px) {
+    header {
+        padding: 0 10px;
+    }
+    .nav-bar ul li a.btn {
+        padding: 6px 12px;
+        font-size: 17px;
+    }
+    .nav-bar ul li a {
+        margin: 0 10px;
+    }
+}
+@media (max-width: 900px) {
+    .nav-bar {
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        right: 0px;
+        overflow: hidden;
+        transition: .5s;
+        background: #263238;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger > .line {
+        width: 30px;
+        height: 3px;
+        background: #2A3246;
+        margin: 7px;
+    }
+    .nav-bar.active {
+       height: 450px;
+    }
+    .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 30px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 1;
+        line-height: 60px;
+    }
+    .nav-bar ul li a {
+        color: #fff;
+    }
+    .nav-bar ul li a.btn {
+        border: 1px solid #fff;
+        margin-top: 10px;
+        display: inline-block;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 98%;
+        margin: auto;
+    }
+    main .container {
+        flex-direction: column-reverse;
+    }
+    main h1 {
+        font-size: 48px;
+    }
+    main .text {
+        width: 100%;
+    }
+    main img {
+        width: 100%;
+    }
+    main a, .skills a {
+        padding: 15px 30px;
+    }
+    .skills {
+        flex-direction: column;
+    }
+    .skills .card, .writing {
+        width: 90%;
+        padding: 10px;
+    }
+    .card-body {
+        padding: 0px;
+    }
+    .horizontal-card {
+        width: 100%;
+        justify-content: start;
+        margin: 0;
+    }
+    .horizontal {
+        flex-direction: column;
+        width: 100%;
+    }
+    .horizontal .text, .horizontal-card, .writing-body.active {
+        width: 100%;
+    }
+    .horizontal .text {
+        padding: 0 10px;
+    }
+    .horizontal img {
+        margin-top: 20px;
+    }
+    .info {
+        flex-direction: column;
+    }
+    .info .text {
+        width: 100%;
+    }
+    .info img {
+        width: 100%;
+    }
+    .pricing {
+        flex-direction: column;
+    }
+    .pricing .card {
+        width: 100%;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .contact .text, .contact img {
+        width: 100%;
+    }
+    .contact input {
+        padding-left: 10px;
+        width: 70%;
+    }
+    .contact a {
+        padding: 15px 30px;
+    }
+    footer .container {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .skills img {
+        width: 100%;
+    }
+}
+@media (max-width: 270px) {
+    main a {
+        font-size: 24px;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .container {
+        width: 98%;
+        margin: auto;
+    }
+    main a {
+        padding: 15px 30px;
+    }
+    main .img {
+        width: 70%;
+    }
+    main img {
+        width: 100%;
+    }
+    .skills img {
+        width: 100%;
+        height: 20%;
+    }
+    .writing-body.active {
+        margin: 0;
+    }
+    .card a {
+        padding: 13px;
+    }
+    .card-body {
+        padding: 0;
+    }
+    .horizontal {
+        margin-top: 70px;
+    }
+    .horizontal .text {
+        width: 50%;
+    }
+    .horizontal .img {
+        width: 50%;
+    }
+    .horizontal img {
+        width: 100%;
+        height: 80%;
+    }
+    .horizontal a {
+        padding: 15px;
+    }
+    .info .img {
+        width: 50%;
+    }
+    .info img {
+        width: 100%;
+    }
+    .card.active {
+        margin-top: 50px;
+    }
+    .contact a {
+        padding: 15px;
+    }
+    .contact input {
+        padding-left: 5px;
+    }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+    .container {
+        width: 98%;
+        margin: auto;
+    }
+    main a {
+        padding: 30px;
+    }
+}
